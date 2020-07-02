@@ -1,0 +1,36 @@
+{
+  "schedulesAndShifts" : [ {
+    "schedule" : {
+      "id" : "2161fee7-6080-4904-8eee-68f1c743d30b",
+      "name" : "hqrhmacvntayoexeotrmfqupkqfoqpvxldil"
+    },
+    "shifts" : [ {
+      "id" : "0855cabf-53d1-4b9b-b4e5-6cc0356ebc8e",
+      "title" : "znaywhrxcueesnbvozym",
+      "description" : "alzjlqpurlzofqsoezzoiwncptetnhdvfqkkwmshnxsvhvixjn",
+      "startAndEnd" : {
+        "start" : 1593572121.000000000,
+        "end" : 1593600921.000000000
+      },
+      "externalUserId" : "529074df-d2dd-49fb-afee-1393bf84796f"
+    }, {
+      "id" : "48dc0d05-0076-4c2a-b933-bfded69a2c87",
+      "title" : "volvqurekleaueezmtps",
+      "description" : "wbtwoqsnkmlmwdfgswkmuvufzlbcvlddyxmpdbdlnkqaiwissr",
+      "startAndEnd" : {
+        "start" : 1593514521.000000000,
+        "end" : 1593543321.000000000
+      },
+      "externalUserId" : "dbe120e5-97e0-40f7-a0ef-6612929a259f"
+    }, {
+      "id" : "10584742-f73a-4fa0-8d40-60692fcc29c8",
+      "title" : "mnxoqhhynueszhgtfvso",
+      "description" : "xvpqieieprwewcyolgjxmqtrfyddjvidrpfwuejgwwhzrcmfzz",
+      "startAndEnd" : {
+        "start" : 1593572121.000000000,
+        "end" : 1593600921.000000000
+      },
+      "externalUserId" : "f865e9b6-ffb3-42cf-a3c0-8cb3cc222b5b"
+    } ]
+  } ]
+}
