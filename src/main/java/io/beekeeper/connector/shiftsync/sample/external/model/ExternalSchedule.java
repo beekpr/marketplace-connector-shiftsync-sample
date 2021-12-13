@@ -14,5 +14,3 @@ public class ExternalSchedule {
     private String locationId;
     private String locationName;
 }
-
-
