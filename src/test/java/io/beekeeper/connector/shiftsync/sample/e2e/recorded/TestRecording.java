@@ -12,6 +12,9 @@ import java.nio.file.Path;
 import java.time.ZonedDateTime;
 
 public class TestRecording {
+
+    public static final String URL_PROPERTY_NAME = "tenantUrlProperty";
+
     public static void main(String[] args) throws Exception {
         ExampleShiftRestService sampleService = new ExampleShiftRestService();
         sampleService.start();
@@ -22,6 +25,7 @@ public class TestRecording {
             .globalConfiguration(new GlobalConfiguration())
             .tenantConfiguration(tenantConfiguration)
             .tenantPropertyToAnonymize("apiToken")
+            .tenantUrlPropertyName("baseUrl")
             .requestedShiftsTimeWindow(
                 TimeWindow.between(ZonedDateTime.now().minusDays(7), ZonedDateTime.now().plusDays(7))
             )
