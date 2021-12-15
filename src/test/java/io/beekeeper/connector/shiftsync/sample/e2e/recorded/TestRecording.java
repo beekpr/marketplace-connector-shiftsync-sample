@@ -13,8 +13,6 @@ import java.time.ZonedDateTime;
 
 public class TestRecording {
 
-    public static final String URL_PROPERTY_NAME = "tenantUrlProperty";
-
     public static void main(String[] args) throws Exception {
         ExampleShiftRestService sampleService = new ExampleShiftRestService();
         sampleService.start();
