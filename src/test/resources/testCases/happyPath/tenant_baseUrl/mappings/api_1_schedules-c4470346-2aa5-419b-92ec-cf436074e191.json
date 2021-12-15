@@ -1,0 +1,20 @@
+{
+  "id" : "c4470346-2aa5-419b-92ec-cf436074e191",
+  "name" : "api_1_schedules",
+  "request" : {
+    "url" : "/api/1/schedules",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "base64Body" : "ewogICJzY2hlZHVsZXMiOiBbCiAgICB7CiAgICAgICJpZCI6ICI1OWM2OWRiNi01MzY0LTQxOTItOGRlMy0xMTA3NWVlYTY5ODgiLAogICAgICAibG9jYXRpb25JZCI6ICIwN2JhNjNmNC0wN2RmLTRiY2ItODQ1NS00ZmE1MzU5YWFmZWEiLAogICAgICAibG9jYXRpb25OYW1lIjogImxwbGd3b3F5bHptb29pdHJqcXhhZXV2aHNibWhwaG53c3JiYSIKICAgIH0KICBdCn0K",
+    "headers" : {
+      "Matched-Stub-Id" : "5f418316-f796-4333-9293-a3ace0a64484",
+      "Vary" : "Accept-Encoding, User-Agent",
+      "Server" : "Jetty(9.2.28.v20190418)"
+    }
+  },
+  "uuid" : "c4470346-2aa5-419b-92ec-cf436074e191",
+  "persistent" : true,
+  "insertionIndex" : 1
+}
