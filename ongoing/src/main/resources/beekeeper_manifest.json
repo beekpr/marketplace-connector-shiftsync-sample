@@ -1,5 +1,5 @@
 {
-  "connectorFullClassName" : "io.beekeeper.connector.shiftsync.sample.SampleConnector",
+  "connectorFullClassName" : "io.beekeeper.connector.shiftsync.sample.SampleOngoingConnector",
   "globalParameters": [],
   "tenantParameters": [
     {

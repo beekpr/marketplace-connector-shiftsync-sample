@@ -2,5 +2,6 @@
   "botAccount": {},
   "extensions": {
     "io.beekeeper.directorySync": {}
-  }
+  },
+  "externalTenantIdFieldName": "externalTenantId"
 }
