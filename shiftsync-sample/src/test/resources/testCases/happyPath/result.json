@@ -13,7 +13,8 @@
       },
       "externalUserId" : "c3a12929-55ca-47a4-a54e-359a7dd333dd",
       "description" : "utjkmozxjcnzfcozzydntllmhlmxtltnmlvwjobahrduqafkeq",
-      "metadata" : { }
+      "metadata" : { },
+      "shiftManagerIds": [ ]
     }, {
       "id" : "8ee5a378-95da-42da-a17d-2bf85b35a092",
       "title" : "dxagpsznvnkflukzmttk",
@@ -23,7 +24,8 @@
       },
       "externalUserId" : "d80dda5b-3710-4b09-a2e5-e0af7ea9dba6",
       "description" : "bldjwbaqugyqsxdsypdlvrtowcxflfgiljhabdiogabeeloxon",
-      "metadata" : { }
+      "metadata" : { },
+      "shiftManagerIds": [ ]
     }, {
       "id" : "4c2cf93c-e65a-4263-ad60-f6e5bfc672d0",
       "title" : "lylepcvngirzeqsvcpuh",
@@ -33,7 +35,8 @@
       },
       "externalUserId" : "38445ef9-f24f-468b-9c69-e9213030dde6",
       "description" : "vyowjkmwexlhjgirzjhznysglsuroouwwvpxlkiaycltjynmaa",
-      "metadata" : { }
+      "metadata" : { },
+      "shiftManagerIds": [ ]
     } ]
   } ]
 }
