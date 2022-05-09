@@ -1,1 +1,3 @@
 rootProject.name = 'marketplace-connector-shift-sync-sample'
+include 'shiftsync-sample'
+
