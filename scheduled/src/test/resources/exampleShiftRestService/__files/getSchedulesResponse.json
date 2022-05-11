@@ -1,0 +1,9 @@
+{
+  "schedules": [
+    {
+      "id": "{{randomValue type='UUID'}}",
+      "locationId": "{{randomValue type='UUID'}}",
+      "locationName": "{{randomValue type='ALPHABETIC'}}"
+    }
+  ]
+}

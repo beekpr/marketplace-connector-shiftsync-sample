@@ -1,0 +1,14 @@
+{
+  "connectorFullClassName" : "io.beekeeper.connector.shiftsync.sample.SampleConnector",
+  "globalParameters": [],
+  "tenantParameters": [
+    {
+      "name": "baseUrl",
+      "description": "Sample Shift Sync REST API base URL"
+    },
+    {
+      "name": "apiToken",
+      "description": "API authorization token"
+    }
+  ]
+}
