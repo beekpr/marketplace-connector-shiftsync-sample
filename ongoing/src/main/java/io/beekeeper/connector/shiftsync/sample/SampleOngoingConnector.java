@@ -18,6 +18,7 @@ public class SampleOngoingConnector implements OngoingShiftImportConnector {
 
     public static final String ANSI_RESET = "\u001B[0m";
     public static final String ANSI_RED = "\u001B[31m";
+    public static final String ANSI_YELLOW_BACKGROUND = "\u001B[43m";
 
     Thread thread = new Thread() {
         @SneakyThrows
@@ -28,7 +29,7 @@ public class SampleOngoingConnector implements OngoingShiftImportConnector {
                 if (isPaused.get()) {
                     Thread.sleep(100);
                 } else {
-                    System.out.println(ANSI_RED + "Ongoing sync is running. Message number " + i++ + ANSI_RESET);
+                    System.out.println(ANSI_YELLOW_BACKGROUND + "Ongoing sync is running. Message number " + i++ + ANSI_RESET);
                     Thread.sleep(1000);
                 }
             }
