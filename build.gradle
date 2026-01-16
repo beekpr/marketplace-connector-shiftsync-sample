@@ -9,7 +9,7 @@ buildscript {
 }
 
 plugins {
-    id 'io.franzbecker.gradle-lombok' version '3.3.0'
+    id 'io.franzbecker.gradle-lombok' version '5.0.0'
     id 'io.beekeeper.gradle.plugin' version '0.9.24'
 }
 
@@ -18,6 +18,10 @@ subprojects {
     version '0.0.1'
 
     apply plugin: 'io.franzbecker.gradle-lombok'
+
+    lombok {
+        version = '1.18.30'
+    }
 
     repositories {
         mavenLocal()
@@ -30,5 +34,14 @@ subprojects {
         skipConfigurations = [
                 'spotbugs'
         ]
+    }
+
+    pluginManager.withPlugin('com.github.spotbugs') {
+        spotbugs {
+            toolVersion = '4.8.3'
+        }
+        tasks.withType(com.github.spotbugs.snom.SpotBugsTask) {
+            enabled = false
+        }
     }
 }
