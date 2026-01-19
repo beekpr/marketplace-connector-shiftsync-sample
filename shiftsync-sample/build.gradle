@@ -8,8 +8,11 @@ targetCompatibility = 17
 
 apply plugin: 'io.beekeeper.integration.connector'
 
+tasks.withType(com.github.spotbugs.snom.SpotBugsTask) {
+    enabled = false
+}
+
 dependencies {
-    compileOnly 'com.github.spotbugs:spotbugs-annotations:4.8.6'
 
     implementation "io.beekeeper:connector-shift-sync-api:${sdkVersion}"
 

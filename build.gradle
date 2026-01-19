@@ -29,19 +29,4 @@ subprojects {
         maven { url "https://clojars.org/repo" }
         maven { url 'https://s3-eu-west-1.amazonaws.com/beekeeper-marketplace-sdk/maven2/release/' }
     }
-
-    dependencyCheck {
-        skipConfigurations = [
-                'spotbugs'
-        ]
-    }
-
-    pluginManager.withPlugin('com.github.spotbugs') {
-        spotbugs {
-            toolVersion = '4.8.3'
-        }
-        tasks.withType(com.github.spotbugs.snom.SpotBugsTask) {
-            enabled = false
-        }
-    }
 }
