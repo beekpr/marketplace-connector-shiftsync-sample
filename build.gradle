@@ -9,7 +9,7 @@ buildscript {
 }
 
 plugins {
-    id 'io.franzbecker.gradle-lombok' version '3.3.0'
+    id 'io.franzbecker.gradle-lombok' version '5.0.0'
     id 'io.beekeeper.gradle.plugin' version '0.9.24'
 }
 
@@ -19,16 +19,14 @@ subprojects {
 
     apply plugin: 'io.franzbecker.gradle-lombok'
 
+    lombok {
+        version = '1.18.30'
+    }
+
     repositories {
         mavenLocal()
         mavenCentral()
         maven { url "https://clojars.org/repo" }
         maven { url 'https://s3-eu-west-1.amazonaws.com/beekeeper-marketplace-sdk/maven2/release/' }
-    }
-
-    dependencyCheck {
-        skipConfigurations = [
-                'spotbugs'
-        ]
     }
 }
